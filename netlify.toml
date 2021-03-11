@@ -1,6 +1,6 @@
 # example netlify.toml
 [build]
-  command = "cd angular-todo-starter && ntl deploy"
+  command = "cd angular-todo-starter && netlify deploy"
   functions = "netlify/functions"
   publish = "dist/angular-todo-starter"
 
